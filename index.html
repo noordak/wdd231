@@ -3,10 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>wdd231 test</title>
+
+    <title>Kevin Noorda | WDD 231</title>
+
+    <meta name="description" content="WDD 231 – Dynamic Web Fundamentals. A home page showcasing web development coursework, projects, and certificates.">
+    <meta name="author" content="Kevin Noorda">
+
+    <link rel="stylesheet" href="siteplan.css">
+    <script src="scripts/siteplan.js" defer></script>
 </head>
+
 <body>
-    <h1>wdd 231 test</h1>
-    
+
+    <header>
+        <div class="header-content">
+            <img src="images/logo.svg" alt="Kevin Noorda logo" class="logo">
+
+            <span class="site-name">Kevin Noorda</span>
+
+            <button id="menuButton" class="menu-button" aria-label="Open navigation menu">
+                ☰
+            </button>
+        </div>
+
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="siteplan-chamber.html">Chamber</a></li>
+                <li><a href="siteplan-final.html">Final</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Home</h1>
+
+        <section class="panel">
+            <h2>About Me</h2>
+            <p>
+                About me goes here. I am Kevin Noorda and I am pursuing a software development degree.
+            </p>
+        </section>
+
+        <section class="panel">
+            <h2>Student Photo</h2>
+            <img src="images/profile.jpeg" alt="Photo of Kevin Noorda">
+        </section>
+
+        <section class="panel certificate-section">
+            <h2>Web and Computer Programming Certificates</h2>
+
+            <div class="course-buttons">
+                <button id="allCourses">All Courses</button>
+                <button id="wddCourses">WDD Courses</button>
+                <button id="cseCourses">CSE Courses</button>
+            </div>
+
+            <p id="totalCredits">Total Credits: 0</p>
+
+            <div id="courseContainer" class="course-container">
+                <!-- Courses will be added here with JavaScript -->
+             </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://github.com/noordak/wdd231" target="_blank" rel="noopener noreferrer">
+                GitHub
+            </a>
+
+            <!--<a href="YOUR-LINKEDIN-URL" target="_blank" rel="noopener noreferrer">
+                LinkedIn
+            </a> -->
+
+            <a href="#" target="_blank" rel="noopener noreferrer">
+                Other
+            </a>
+        </div>
+
+        <p>
+            &copy; <span id="currentYear"></span> Kevin Noorda | Utah, USA
+        </p>
+
+        <p id="lastModified"></p>
+    </footer>
+
 </body>
-</html>
+</html> 

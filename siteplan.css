@@ -1,0 +1,323 @@
+/* ------------------------------
+   Google Font
+--------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+
+/* ------------------------------
+   Universal Styles
+--------------------------------- */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-green: #1f7a1f;
+    --dark-green: #155d15;
+    --accent: #2dd4bf;
+    --light-accent: #dff8f4;
+    --panel-bg: #ffffff;
+    --text-dark: #102a43;
+    --text-light: #ffffff;
+    --page-bg: #f4f6f8;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: var(--page-bg);
+    color: var(--text-dark);
+    line-height: 1.6;
+}
+
+
+/* ------------------------------
+   Header
+--------------------------------- */
+header {
+    background-color: var(--primary-green);
+    color: var(--text-light);
+    padding: 1rem;
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+}
+
+.site-name {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+
+/* ------------------------------
+   Hamburger Button
+--------------------------------- */
+.menu-button {
+    margin-left: auto;
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+
+/* ------------------------------
+   Navigation
+--------------------------------- */
+.main-nav {
+    max-width: 1200px;
+    margin: 1rem auto 0;
+}
+
+.main-nav ul {
+    list-style: none;
+    display: none;
+    flex-direction: column;
+}
+
+.main-nav ul.open {
+    display: flex;
+}
+
+.main-nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 0.75rem 1rem;
+    border-radius: 6px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.main-nav a:hover {
+    background-color: var(--accent);
+    color: var(--text-dark);
+}
+
+
+/* Wayfinding */
+.main-nav a.active {
+    background-color: var(--dark-green);
+    font-weight: 700;
+}
+
+
+/* ------------------------------
+   Main Content
+--------------------------------- */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+    display: grid;
+    gap: 1rem;
+}
+
+main > h1 {
+    grid-column: 1 / -1;
+    color: var(--primary-green);
+    margin-bottom: 0.5rem;
+}
+
+
+/* ------------------------------
+   Sections
+--------------------------------- */
+section {
+    background-color: var(--panel-bg);
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+section:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+section h2 {
+    color: var(--text-dark);
+    margin-bottom: 0.75rem;
+}
+
+section h2::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 4px;
+    background-color: var(--accent);
+    margin-top: 0.5rem;
+    border-radius: 2px;
+}
+
+
+/* ------------------------------
+   Images
+--------------------------------- */
+section img {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 6px;
+}
+
+
+/* ------------------------------
+   Certificate Section
+--------------------------------- */
+.certificate-section {
+    grid-column: 1 / -1;
+}
+
+.course-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.course-buttons button {
+    background-color: var(--primary-green);
+    color: white;
+    border: 2px solid var(--primary-green);
+    border-radius: 6px;
+    padding: 0.6rem 1rem;
+    font-family: inherit;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.course-buttons button:hover {
+    background-color: var(--accent);
+    border-color: var(--accent);
+    color: var(--text-dark);
+}
+
+#totalCredits {
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.course-container {
+    display: grid;
+    gap: 1rem;
+}
+
+.course-card {
+    background-color: #e9eef2;
+    border: 2px solid #cbd5e1;
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.course-card.completed {
+    background-color: var(--light-accent);
+    border-color: var(--primary-green);
+}
+
+.course-card h3 {
+    margin-bottom: 0.5rem;
+}
+
+
+/* ------------------------------
+   Footer
+--------------------------------- */
+footer {
+    background-color: var(--primary-green);
+    color: white;
+    text-align: center;
+    padding: 1.5rem 1rem;
+    margin-top: 2rem;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.social-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.social-links a:hover {
+    color: var(--accent);
+}
+
+footer p {
+    margin: 0.4rem 0;
+}
+
+
+/* ------------------------------
+   Larger Screens
+--------------------------------- */
+@media (min-width: 768px) {
+
+    /* Header layout */
+    .header-content {
+        padding: 0 1rem;
+    }
+
+    /* Hide hamburger */
+    .menu-button {
+        display: none;
+    }
+
+    /* Horizontal navigation */
+    .main-nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        gap: 0.5rem;
+    }
+
+    .main-nav {
+        margin-top: 0.5rem;
+    }
+
+    /* Two-column main layout */
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* Certificate section spans both columns */
+    .certificate-section {
+        grid-column: 1 / -1;
+    }
+
+    /* Multiple course cards across the page */
+    .course-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+/* ------------------------------
+   Extra Large Screens
+--------------------------------- */
+@media (min-width: 1000px) {
+
+    .course-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
