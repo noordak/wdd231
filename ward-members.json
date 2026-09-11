@@ -1,0 +1,55 @@
+{
+  "families": [
+    {
+      "familyName": "Business",
+      "moveInDate": "2024-08-15",
+      "numberOfMembers": 4,
+      "visitedByBishopric": true,
+      "familyMembers": [
+        {
+          "name": "Noneya Business",
+          "gender": "Male",
+          "birthdate": "1985-03-12"
+        },
+        {
+          "name": "Mindyo Business",
+          "gender": "Female",
+          "birthdate": "1987-07-24"
+        },
+        {
+          "name": "Outta Business",
+          "gender": "Male",
+          "birthdate": "2012-11-05"
+        },
+        {
+          "name": "Timefor Business",
+          "gender": "Female",
+          "birthdate": "2016-02-18"
+        }
+      ]
+    },
+    {
+      "familyName": "Fakename",
+      "moveInDate": "2023-05-20",
+      "numberOfMembers": 3,
+      "visitedByBishopric": false,
+      "familyMembers": [
+        {
+          "name": "Notreal Fakename",
+          "gender": "Male",
+          "birthdate": "1979-09-30"
+        },
+        {
+          "name": "Unreal Fakename",
+          "gender": "Female",
+          "birthdate": "1981-12-14"
+        },
+        {
+          "name": "Madeup Fakename",
+          "gender": "Male",
+          "birthdate": "2010-06-22"
+        }
+      ]
+    }
+  ]
+}

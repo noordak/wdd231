@@ -1,0 +1,93 @@
+/* General page styling */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f1ea;
+    color: #222;
+}
+
+/* Header */
+header {
+    background-color: #006b2d;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+    border-bottom: 5px solid #7cff00;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+/* Main content */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+/* Prophet cards container */
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+/* Individual prophet cards */
+#cards section {
+    background-color: white;
+    border: 2px solid #63c132;
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Prophet names */
+#cards h2 {
+    margin: 0 0 1rem;
+    padding-bottom: 0.75rem;
+    color: #006b2d;
+    font-size: 1.35rem;
+    border-bottom: 2px solid #7cff00;
+}
+
+/* Prophet images */
+#cards img {
+    width: 100%;
+    max-width: 340px;
+    height: auto;
+    border-radius: 6px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Footer */
+footer {
+    background-color: #006b2d;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 2rem;
+    border-top: 5px solid #7cff00;
+}
+
+/* Smaller screens */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.6rem;
+    }
+
+    main {
+        padding: 1rem;
+    }
+
+    #cards {
+        grid-template-columns: 1fr;
+    }
+}
