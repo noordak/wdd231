@@ -1,0 +1,67 @@
+/* ------------------------------
+   Larger Screen Styles
+------------------------------ */
+
+@media screen and (min-width: 700px) {
+
+   
+    /* Header */
+
+    .header-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 1.5rem;
+    }
+
+    .logo-area h1 {
+        font-size: 1.8rem;
+    }
+
+
+
+       /* Navigation */
+
+    #menuButton {
+        display: none;
+    }
+
+    #mainNav {
+        display: flex;
+        justify-content: center;
+    }
+
+    #mainNav a {
+        padding: 1rem 1.5rem;
+    }
+
+
+    /* Main */
+
+    main {
+        padding: 2rem;
+    }
+
+    /* Directory Grid */
+
+    #members.grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    #members.list {
+        display: block;
+    }
+    
+
+    /* Footer */
+
+    footer {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: left;
+        padding: 2rem;
+    }
+
+    footer h2 {
+        margin-top: 0;
+    }
+}

@@ -1,0 +1,65 @@
+[
+{
+"name": "Pronghorn Bicycles",
+"address": "2432 W 1700 S Ste A4, Syracuse, UT 84075",
+"phone": "801-820-5934",
+"website": "https://www.pronghornbicycles.com",
+"image": "pronghorn-bicycles.webp",
+"membership": 3,
+"description": "A full-service bicycle shop offering bikes, accessories, rentals, and professional bicycle service."
+},
+{
+"name": "Don's Meats",
+"address": "1947 W 1700 S, Syracuse, UT 84075",
+"phone": "801-773-3820",
+"website": "https://syracusedonsmeats.com",
+"image": "dons-meats.webp",
+"membership": 2,
+"description": "A family-operated meat market serving the Syracuse community with quality meats and custom cuts."
+},
+{
+"name": "Twisted Sugar",
+"address": "817 W 1700 S, Unit B, Syracuse, UT 84075",
+"phone": "385-626-9414",
+"website": "https://syracuse.twistedsugarstores.com",
+"image": "twisted-sugar.webp",
+"membership": 2,
+"description": "A local treat shop offering specialty sodas, cookies, and other sweet treats."
+},
+{
+"name": "The Hollow: An Enchanted Bookshop",
+"address": "1588 S 2000 W Ste 101, Syracuse, UT",
+"phone": "385-367-3558",
+"website": "https://hollowbookshoputah.com",
+"image": "the-hollow.webp",
+"membership": 3,
+"description": "An enchanting local bookshop offering books and a welcoming destination for readers and families."
+},
+{
+"name": "Thurgood Creamery",
+"address": "2432 W 1700 S B1, Syracuse, UT 84075",
+"phone": "385-442-9996",
+"website": "https://thurgoodcreamery.com",
+"image": "thurgood-creamery.webp",
+"membership": 1,
+"description": "A Syracuse ice cream shop serving handcrafted premium ice cream, shakes, and seasonal flavors."
+},
+{
+"name": "Hug-Hes American Kitchen & Catering",
+"address": "2432 W 1700 S Ste B6, Syracuse, UT 84075",
+"phone": "801-896-0661",
+"website": "https://www.hug-hes.com/syracuse-ut",
+"image": "hug-hes.webp",
+"membership": 2,
+"description": "A locally established restaurant and catering business serving American-style food in the Syracuse community."
+},
+{
+"name": "Syracuse Family Dental",
+"address": "1747 S Heritage Ln., #B201, Syracuse, UT 84075",
+"phone": "801-776-2461",
+"website": "https://www.syracusefamilydentalut.com",
+"image": "syracuse-family-dental.webp",
+"membership": 1,
+"description": "A Syracuse dental practice providing general and family dental care for patients of all ages."
+}
+]
