@@ -146,7 +146,7 @@ main > h2 {
 }
 /* ------------------------------
    Hero
------------------------------- */
+
 
 .hero {
     position: relative;
@@ -190,7 +190,7 @@ main > h2 {
     background-color: var(--white);
     color: var(--secondary-color);
 }
-
+-----*/
 
 /* ------------------------------
    View Buttons
