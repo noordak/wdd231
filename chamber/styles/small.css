@@ -5,7 +5,7 @@
 :root {
     --primary-color: #4caf00;
     --secondary-color: #007a33;
-    --accent-color: #c8e600;
+    --accent-color:  #a8c900;
     --background-color: #f5f5f5;
     --text-color: #1a1a1a;
     --white: #ffffff;
@@ -43,8 +43,9 @@ button {
    Header
 ------------------------------ */
 
+
 header {
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     color: var(--white);
 }
 
@@ -106,11 +107,15 @@ margin: 0;
    Navigation
 ------------------------------ */
 
+
 #mainNav {
     display: none;
     background-color: var(--secondary-color);
 }
 
+#mainNav.open {
+    display: block;
+}
 #mainNav a {
     display: block;
     padding: 0.75rem 1rem;
@@ -135,9 +140,55 @@ main {
     padding: 1rem;
 }
 
-main h2 {
+main > h2 {
     color: var(--secondary-color);
     text-align: center;
+}
+/* ------------------------------
+   Hero
+------------------------------ */
+
+.hero {
+    position: relative;
+    margin-bottom: 2rem;
+    overflow: hidden;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.hero-content {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    right: 1rem;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.65);
+    color: var(--white);
+    text-align: center;
+}
+
+.hero-content h2 {
+    margin: 0 0 0.75rem;
+    color: var(--white);
+}
+
+.hero-cta {
+    display: inline-block;
+    padding: 0.75rem 1.25rem;
+    background-color: var(--accent-color);
+    color: var(--text-color);
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero-cta:hover,
+.hero-cta:focus {
+    background-color: var(--white);
+    color: var(--secondary-color);
 }
 
 
@@ -246,4 +297,258 @@ footer h2 {
 
 footer p {
     margin: 0.3rem 0;
+}
+
+/* ------------------------------
+Home Page
+------------------------------ */
+
+/* Page Heading */
+
+main > h1 {
+color: var(--secondary-color);
+text-align: center;
+font-size: 1.7rem;
+margin: 1rem 0 1.5rem;
+}
+
+/* ------------------------------
+Hero
+------------------------------ */
+
+.hero {
+position: relative;
+margin-bottom: 2rem;
+overflow: hidden;
+border-radius: 8px;
+box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.hero img {
+width: 100%;
+height: auto;
+min-height: 250px;
+object-fit: cover;
+}
+
+.hero-content {
+position: absolute;
+bottom: 0;
+left: 0;
+right: 0;
+padding: 1.5rem 1rem;
+background-color: rgba(0, 0, 0, 0.65);
+color: var(--white);
+text-align: center;
+}
+
+.hero-content h2 {
+margin: 0 0 1rem;
+color: var(--white);
+font-size: 1.4rem;
+}
+
+/* Call to Action */
+
+.cta-button {
+display: inline-block;
+padding: 0.75rem 1.25rem;
+background-color: var(--accent-color);
+color: var(--text-color);
+font-weight: 700;
+text-decoration: none;
+border-radius: 5px;
+border: 2px solid var(--white);
+}
+
+.cta-button:hover,
+.cta-button:focus {
+background-color: var(--white);
+color: var(--secondary-color);
+}
+
+/* ------------------------------
+Home Sections
+------------------------------ */
+
+.home-section {
+margin: 2rem 0;
+}
+
+.home-section > h2 {
+margin-bottom: 1rem;
+padding-bottom: 0.5rem;
+border-bottom: 3px solid var(--accent-color);
+}
+
+/* ------------------------------
+Events
+------------------------------ */
+
+.events {
+display: grid;
+gap: 1rem;
+}
+
+.event-card {
+background-color: var(--white);
+border: 1px solid #cccccc;
+border-radius: 8px;
+padding: 1.25rem;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.event-card h3 {
+margin-top: 0;
+color: var(--secondary-color);
+}
+
+.event-card p {
+margin: 0.5rem 0;
+}
+
+/* ------------------------------
+Weather
+------------------------------ */
+
+.weather-section {
+background-color: var(--white);
+border-radius: 8px;
+padding: 1rem;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#weather {
+display: grid;
+gap: 1.5rem;
+}
+
+.current-weather {
+text-align: center;
+padding: 1rem;
+background-color: #eef7ee;
+border-radius: 8px;
+}
+
+.current-weather h3,
+.forecast h3 {
+color: var(--secondary-color);
+margin-top: 0;
+}
+
+#temperature {
+font-size: 2.5rem;
+font-weight: 700;
+margin: 0.5rem 0;
+color: var(--secondary-color);
+}
+
+#weather-description {
+margin: 0;
+text-transform: capitalize;
+}
+
+#forecast-container {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 0.5rem;
+}
+
+.forecast-card {
+background-color: #eef7ee;
+border: 1px solid #cccccc;
+border-radius: 6px;
+padding: 0.75rem 0.4rem;
+text-align: center;
+}
+
+.forecast-card h4 {
+margin: 0 0 0.5rem;
+color: var(--secondary-color);
+font-size: 0.9rem;
+}
+
+.forecast-card p {
+margin: 0.25rem 0;
+}
+
+.forecast-temperature {
+font-size: 1.25rem;
+font-weight: 700;
+}
+
+/* ------------------------------
+Business Spotlights
+------------------------------ */
+
+.spotlight-grid {
+display: grid;
+gap: 1rem;
+}
+
+.spotlight-card {
+background-color: var(--white);
+border: 1px solid #cccccc;
+border-radius: 8px;
+padding: 1.25rem;
+text-align: center;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.spotlight-card img {
+width: 150px;
+height: 100px;
+object-fit: contain;
+margin: 0 auto 1rem;
+}
+
+.spotlight-card h3 {
+color: var(--secondary-color);
+margin: 0 0 0.5rem;
+}
+
+.spotlight-card p {
+margin: 0.35rem 0;
+}
+
+.spotlight-card .membership-level {
+display: inline-block;
+margin: 0.5rem 0;
+padding: 0.25rem 0.75rem;
+background-color: var(--accent-color);
+color: var(--text-color);
+font-weight: 700;
+border-radius: 20px;
+}
+
+.spotlight-card a {
+display: inline-block;
+margin-top: 0.5rem;
+font-weight: 700;
+}
+
+/* ------------------------------
+Home Page Responsive Fixes
+------------------------------ */
+
+@media screen and (max-width: 699px) {
+
+main {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.hero-content {
+    position: relative;
+    background-color: var(--secondary-color);
+}
+
+.hero img {
+    min-height: 200px;
+}
+
+#forecast-container {
+    grid-template-columns: repeat(3, 1fr);
+}
+
 }

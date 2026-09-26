@@ -76,12 +76,13 @@ const menuButton = document.querySelector("#menuButton");
 const mainNav = document.querySelector("#mainNav");
 
 menuButton.addEventListener("click", () => {
-const isOpen = mainNav.style.display === "block";
+    const isOpen = mainNav.classList.toggle("open");
 
-mainNav.style.display = isOpen ? "none" : "block";
-
-menuButton.setAttribute("aria-expanded", !isOpen);
-
+    menuButton.setAttribute("aria-expanded", isOpen);
+    menuButton.setAttribute(
+        "aria-label",
+        isOpen ? "Close navigation menu" : "Open navigation menu"
+    );
 });
 
 // Grid and List Views
