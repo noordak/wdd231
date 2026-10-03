@@ -135,3 +135,36 @@ Home Page - Larger Screens
 }
 
 }
+
+/* ------------------------------
+Join Page - Larger Screens
+------------------------------ */
+
+@media screen and (min-width: 700px) {
+
+.join-layout {
+    grid-template-columns: 2fr 1fr;
+    align-items: start;
+    gap: 2rem;
+}
+
+.join-form-section,
+.membership-section {
+    padding: 2rem;
+}
+
+.membership-section {
+    position: sticky;
+    top: 1rem;
+}
+
+.membership-cards {
+    grid-template-columns: 1fr;
+}
+
+.join-form-section input[type="submit"] {
+    width: fit-content;
+    padding: 0.9rem 2rem;
+}
+
+}
