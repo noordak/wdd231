@@ -794,3 +794,17 @@ display: block;
 color: var(--secondary-color);
 margin-bottom: 0.25rem;
 }
+.discover-grid {
+    display: grid;
+    gap: 1rem;
+
+    grid-template-areas:
+        "one"
+        "two"
+        "three"
+        "four"
+        "five"
+        "six"
+        "seven"
+        "eight";
+}

@@ -168,3 +168,95 @@ Join Page - Larger Screens
 }
 
 }
+
+/* =========================================
+DISCOVER PAGE - MEDIUM
+641px - 1024px
+========================================= */
+
+@media screen and (min-width: 641px) and (max-width: 1024px) {
+
+.discover-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+
+    grid-template-areas:
+        "one one"
+        "two three"
+        "four three"
+        "four five"
+        "six seven"
+        "six eight";
+}
+
+}
+
+/* =========================================
+DISCOVER PAGE - LARGE
+1025px and above
+========================================= */
+
+@media screen and (min-width: 1025px) {
+
+.discover-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+
+    grid-template-areas:
+        "one one two three"
+        "one one four three"
+        "five six four seven"
+        "five six eight seven";
+}
+
+.discover-card img {
+    transition: transform 0.3s ease,
+                filter 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+.discover-card img:hover {
+    transform: scale(1.04);
+    filter: brightness(1.08);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+}
+
+/* =========================================
+GRID AREA ASSIGNMENTS
+========================================= */
+
+.discover-card:nth-child(1) {
+grid-area: one;
+}
+
+.discover-card:nth-child(2) {
+grid-area: two;
+}
+
+.discover-card:nth-child(3) {
+grid-area: three;
+}
+
+.discover-card:nth-child(4) {
+grid-area: four;
+}
+
+.discover-card:nth-child(5) {
+grid-area: five;
+}
+
+.discover-card:nth-child(6) {
+grid-area: six;
+}
+
+.discover-card:nth-child(7) {
+grid-area: seven;
+}
+
+.discover-card:nth-child(8) {
+grid-area: eight;
+}
