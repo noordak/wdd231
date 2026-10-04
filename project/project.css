@@ -1,0 +1,250 @@
+:root {
+    --disney-blue: #1E5AA8;
+    --disney-gold: #F4C542;
+    --light-background: #F5F7FA;
+    --dark-text: #222222;
+    --white: #FFFFFF;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: var(--light-background);
+    color: var(--dark-text);
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: var(--disney-blue);
+    color: var(--white);
+    text-align: center;
+    padding: 2rem 1rem;
+    border-bottom: 8px solid var(--disney-gold);
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.tagline {
+    margin-bottom: 0;
+    font-size: 1.2rem;
+}
+
+main {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+section {
+    background-color: var(--white);
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border-left: 6px solid var(--disney-blue);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+h2 {
+    color: var(--disney-blue);
+    border-bottom: 3px solid var(--disney-gold);
+    padding-bottom: 0.4rem;
+}
+
+h3 {
+    color: var(--disney-blue);
+}
+
+ul {
+    padding-left: 1.5rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+.color-sample {
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 8px;
+}
+
+.color-sample h3,
+.color-sample p {
+    margin: 0.25rem 0;
+}
+
+.blue-sample {
+    background-color: var(--disney-blue);
+    color: var(--white);
+}
+
+.blue-sample h3 {
+    color: var(--white);
+}
+
+.gold-sample {
+    background-color: var(--disney-gold);
+    color: var(--dark-text);
+}
+
+.font-heading {
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+.font-body {
+    font-family: Arial, sans-serif;
+}
+
+.wireframes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.wireframe {
+    flex: 1 1 300px;
+}
+
+.wireframe h3 {
+    text-align: center;
+}
+
+.mobile-box,
+.desktop-box {
+    border: 3px solid #222222;
+    background-color: var(--white);
+    padding: 0.5rem;
+}
+
+.mobile-box {
+    max-width: 280px;
+    margin: 0 auto;
+}
+
+.desktop-box {
+    width: 100%;
+}
+
+.wf-header,
+.wf-nav,
+.wf-hero,
+.wf-content,
+.wf-footer {
+    border: 2px solid #222222;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+
+.wf-header {
+    background-color: #EEEEEE;
+    font-weight: bold;
+}
+
+.wf-nav {
+    background-color: #EEEEEE;
+}
+
+.wf-hero {
+    min-height: 90px;
+}
+
+.wf-content {
+    min-height: 70px;
+}
+
+.wf-footer {
+    margin-bottom: 0;
+    background-color: #EEEEEE;
+}
+
+.wf-columns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5rem;
+}
+
+.wf-columns .wf-content {
+    margin-bottom: 0.5rem;
+}
+
+footer {
+    background-color: var(--disney-blue);
+    color: var(--white);
+    text-align: center;
+    padding: 1.5rem;
+    border-top: 6px solid var(--disney-gold);
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    main {
+        margin-top: 1rem;
+    }
+
+    section {
+        padding: 1rem;
+    }
+
+    .wf-columns {
+        grid-template-columns: 1fr;
+    }
+}
+
+.wireframes {
+display: flex;
+flex-wrap: wrap;
+gap: 2rem;
+justify-content: center;
+align-items: flex-start;
+}
+
+.wireframes figure {
+margin: 0;
+flex: 1 1 400px;
+text-align: center;
+}
+
+.wireframes img {
+display: block;
+width: 100%;
+max-width: 600px;
+height: auto;
+margin: 0 auto;
+border: 1px solid #222222;
+}
+
+.wireframes figcaption {
+margin-top: 0.75rem;
+font-family: "Trebuchet MS", sans-serif;
+font-weight: bold;
+color: #1E5AA8;
+}
+
+@media (max-width: 600px) {
+.wireframes {
+display: block;
+}
+
+.wireframes figure {
+    margin-bottom: 2rem;
+}
+
+}
