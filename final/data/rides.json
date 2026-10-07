@@ -1,0 +1,146 @@
+[
+    {
+        "id": 1,
+        "name": "Space Mountain",
+        "land": "Tomorrowland",
+        "type": "Thrill Ride",
+        "heightRequirement": "40 inches",
+        "description": "Blast through the darkness of outer space on a fast indoor roller coaster adventure."
+    },
+    {
+        "id": 2,
+        "name": "Matterhorn Bobsleds",
+        "land": "Fantasyland",
+        "type": "Thrill Ride",
+        "heightRequirement": "42 inches",
+        "description": "Race through the icy mountain terrain of the Matterhorn on a fast-moving bobsled adventure."
+    },
+    {
+        "id": 3,
+        "name": "Pirates of the Caribbean",
+        "land": "New Orleans Square",
+        "type": "Dark Ride",
+        "heightRequirement": "Any Height",
+        "description": "Set sail through a pirate adventure filled with boats, music, and swashbuckling scenes."
+    },
+    {
+        "id": 4,
+        "name": "Haunted Mansion",
+        "land": "New Orleans Square",
+        "type": "Dark Ride",
+        "heightRequirement": "Any Height",
+        "description": "Take a supernatural tour through a mysterious mansion filled with ghostly residents."
+    },
+    {
+        "id": 5,
+        "name": "Big Thunder Mountain Railroad",
+        "land": "Frontierland",
+        "type": "Thrill Ride",
+        "heightRequirement": "40 inches",
+        "description": "Race through a runaway mining town aboard a fast-moving mountain train."
+    },
+    {
+        "id": 6,
+        "name": "Indiana Jones Adventure",
+        "land": "Adventureland",
+        "type": "Thrill Ride",
+        "heightRequirement": "46 inches",
+        "description": "Join Indiana Jones on a turbulent expedition through an ancient temple."
+    },
+    {
+        "id": 7,
+        "name": "Jungle Cruise",
+        "land": "Adventureland",
+        "type": "Boat Ride",
+        "heightRequirement": "Any Height",
+        "description": "Travel down exotic rivers while encountering wildlife and humorous jungle adventures."
+    },
+    {
+        "id": 8,
+        "name": "Pirate's Lair on Tom Sawyer Island",
+        "land": "Frontierland",
+        "type": "Adventure",
+        "heightRequirement": "Any Height",
+        "description": "Explore trails, caves, and pirate-themed areas on an island in the Rivers of America."
+    },
+    {
+        "id": 9,
+        "name": "Buzz Lightyear Astro Blasters",
+        "land": "Tomorrowland",
+        "type": "Interactive Ride",
+        "heightRequirement": "Any Height",
+        "description": "Help Buzz Lightyear defeat the evil Emperor Zurg in this interactive space adventure."
+    },
+    {
+        "id": 10,
+        "name": "Autopia",
+        "land": "Tomorrowland",
+        "type": "Driving Ride",
+        "heightRequirement": "32 inches",
+        "description": "Take the wheel and drive along a futuristic roadway in your own miniature car."
+    },
+    {
+        "id": 11,
+        "name": "Peter Pan's Flight",
+        "land": "Fantasyland",
+        "type": "Dark Ride",
+        "heightRequirement": "Any Height",
+        "description": "Fly over London and into Neverland aboard a magical flying pirate ship."
+    },
+    {
+        "id": 12,
+        "name": "It's a Small World",
+        "land": "Fantasyland",
+        "type": "Boat Ride",
+        "heightRequirement": "Any Height",
+        "description": "Sail through colorful scenes celebrating children and cultures from around the world."
+    },
+    {
+        "id": 13,
+        "name": "Alice in Wonderland",
+        "land": "Fantasyland",
+        "type": "Dark Ride",
+        "heightRequirement": "Any Height",
+        "description": "Follow Alice on a whimsical journey through Wonderland."
+    },
+    {
+        "id": 14,
+        "name": "Dumbo the Flying Elephant",
+        "land": "Fantasyland",
+        "type": "Family Ride",
+        "heightRequirement": "Any Height",
+        "description": "Soar above Fantasyland aboard a colorful flying elephant."
+    },
+    {
+        "id": 15,
+        "name": "Mr. Toad's Wild Ride",
+        "land": "Fantasyland",
+        "type": "Dark Ride",
+        "heightRequirement": "Any Height",
+        "description": "Take a wild and unpredictable journey through the world of Mr. Toad."
+    },
+    {
+        "id": 16,
+        "name": "Star Tours",
+        "land": "Tomorrowland",
+        "type": "Simulator",
+        "heightRequirement": "40 inches",
+        "description": "Travel through the Star Wars universe on an unpredictable simulated space flight."
+    },
+    {
+        "id": 17,
+        "name": "The Many Adventures of Winnie the Pooh",
+        "land": "Critter Country",
+        "type": "Dark Ride",
+        "heightRequirement": "Any Height",
+        "description": "Join Winnie the Pooh and friends on a colorful adventure through the Hundred Acre Wood."
+    },
+    {
+        "id": 18,
+        "name": "Finding Nemo Submarine Voyage",
+        "land": "Tomorrowland",
+        "type": "Submarine Ride",
+        "heightRequirement": "Any Height",
+        "description": "Explore an underwater world inspired by the adventures of Finding Nemo."
+    }
+]

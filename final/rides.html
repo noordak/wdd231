@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Explore Disneyland rides and attractions by land, ride type, and height requirement with the Disneyland Trip Planner.">
+
+    <meta name="author" content="Kevin Noorda">
+
+    <meta property="og:title" content="Disneyland Rides & Attractions">
+    <meta property="og:description" content="Explore Disneyland rides and attractions to help plan your family vacation.">
+    <meta property="og:type" content="website">
+
+    <title>Disneyland Rides & Attractions | Disneyland Trip Planner</title>
+
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+
+    <link rel="stylesheet" href="styles/project.css">
+
+    <script type="module" src="scripts/main.js"></script>
+    <script type="module" src="scripts/rides.js"></script>
+</head>
+
+<body>
+
+    <header class="site-header">
+
+        <div class="header-container">
+
+            <div>
+                <a class="site-title" href="index.html">
+                    Disneyland Trip Planner
+                </a>
+
+                <p class="tagline">Plan the trip. Enjoy the magic.</p>
+            </div>
+
+            <button
+                class="menu-button"
+                id="menu-button"
+                type="button"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="navigation">
+                ☰
+            </button>
+
+            <nav class="navigation" id="navigation" aria-label="Main navigation">
+
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="rides.html" class="active">
+                            Rides &amp; Attractions
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="resources.html">Trip Resources</a>
+                    </li>
+                </ul>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <section class="info-section">
+
+            <h1 class="section-heading">
+                Rides &amp; Attractions
+            </h1>
+
+            <p>
+                Explore Disneyland attractions and find rides that
+                match your family's interests and height requirements.
+                Select a ride to learn more.
+            </p>
+
+        </section>
+
+
+        <section class="ride-controls" aria-labelledby="filter-heading">
+
+            <h2 id="filter-heading">Find a Ride</h2>
+
+            <label for="land-filter">
+                Land:
+            </label>
+
+            <select id="land-filter">
+                <option value="all">All Lands</option>
+            </select>
+
+
+            <label for="type-filter">
+                Type:
+            </label>
+
+            <select id="type-filter">
+                <option value="all">All Types</option>
+            </select>
+
+
+            <button
+                class="button button-secondary"
+                id="favorites-button"
+                type="button">
+                Show Favorites
+            </button>
+
+            <button
+                class="button"
+                id="all-rides-button"
+                type="button">
+                Show All Rides
+            </button>
+
+        </section>
+
+
+        <section
+            class="info-section"
+            aria-labelledby="rides-heading">
+
+            <h2 id="rides-heading" class="section-heading">
+                Disneyland Attractions
+            </h2>
+
+            <div
+                id="ride-container"
+                class="ride-grid">
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <dialog id="ride-modal">
+
+        <div class="modal-content">
+
+            <button
+                class="modal-close"
+                id="modal-close"
+                type="button"
+                aria-label="Close ride details">
+                X
+            </button>
+
+            <div id="modal-content">
+            </div>
+
+        </div>
+
+    </dialog>
+
+
+    <footer class="site-footer">
+
+        <p>
+            &copy; 2026 Disneyland Trip Planner
+        </p>
+
+        <div class="footer-links">
+
+            <a href="attributions.html">
+                Attributions
+            </a>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
