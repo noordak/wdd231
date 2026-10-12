@@ -2,6 +2,7 @@
     {
         "id": 1,
         "name": "Space Mountain",
+        "image": "images/space-mountain.jpg",
         "land": "Tomorrowland",
         "type": "Thrill Ride",
         "heightRequirement": "40 inches",
@@ -10,6 +11,7 @@
     {
         "id": 2,
         "name": "Matterhorn Bobsleds",
+        "image": "images/Matterhorn.jpg",
         "land": "Fantasyland",
         "type": "Thrill Ride",
         "heightRequirement": "42 inches",
@@ -18,6 +20,7 @@
     {
         "id": 3,
         "name": "Pirates of the Caribbean",
+        "image": "images/pirates.jpg",
         "land": "New Orleans Square",
         "type": "Dark Ride",
         "heightRequirement": "Any Height",
@@ -26,6 +29,7 @@
     {
         "id": 4,
         "name": "Haunted Mansion",
+        "image": "images/haunted-mansion.jpg",
         "land": "New Orleans Square",
         "type": "Dark Ride",
         "heightRequirement": "Any Height",
@@ -34,6 +38,7 @@
     {
         "id": 5,
         "name": "Big Thunder Mountain Railroad",
+        "image": "images/Big-Thunder.jpg",
         "land": "Frontierland",
         "type": "Thrill Ride",
         "heightRequirement": "40 inches",
@@ -42,6 +47,7 @@
     {
         "id": 6,
         "name": "Indiana Jones Adventure",
+        "image": "images/Indiana-jones.jpg",
         "land": "Adventureland",
         "type": "Thrill Ride",
         "heightRequirement": "46 inches",
@@ -50,6 +56,7 @@
     {
         "id": 7,
         "name": "Jungle Cruise",
+        "image": "images/jungle-cruise.jpg",
         "land": "Adventureland",
         "type": "Boat Ride",
         "heightRequirement": "Any Height",
@@ -58,6 +65,7 @@
     {
         "id": 8,
         "name": "Pirate's Lair on Tom Sawyer Island",
+        "image": "images/Tom-Sawyer.jpg",
         "land": "Frontierland",
         "type": "Adventure",
         "heightRequirement": "Any Height",
@@ -66,6 +74,7 @@
     {
         "id": 9,
         "name": "Buzz Lightyear Astro Blasters",
+        "image": "images/buzz-lightyear.jpg",
         "land": "Tomorrowland",
         "type": "Interactive Ride",
         "heightRequirement": "Any Height",
@@ -74,6 +83,7 @@
     {
         "id": 10,
         "name": "Autopia",
+        "image": "images/Autopia.jpg",
         "land": "Tomorrowland",
         "type": "Driving Ride",
         "heightRequirement": "32 inches",
@@ -82,6 +92,7 @@
     {
         "id": 11,
         "name": "Peter Pan's Flight",
+        "image": "images/peter-pan.jpg",
         "land": "Fantasyland",
         "type": "Dark Ride",
         "heightRequirement": "Any Height",
@@ -90,6 +101,7 @@
     {
         "id": 12,
         "name": "It's a Small World",
+        "image": "images/small-world.jpg",
         "land": "Fantasyland",
         "type": "Boat Ride",
         "heightRequirement": "Any Height",
@@ -98,6 +110,7 @@
     {
         "id": 13,
         "name": "Alice in Wonderland",
+        "image": "images/alice.JPG",
         "land": "Fantasyland",
         "type": "Dark Ride",
         "heightRequirement": "Any Height",
@@ -106,6 +119,7 @@
     {
         "id": 14,
         "name": "Dumbo the Flying Elephant",
+        "image": "images/dumbo.jpg",
         "land": "Fantasyland",
         "type": "Family Ride",
         "heightRequirement": "Any Height",
@@ -114,6 +128,7 @@
     {
         "id": 15,
         "name": "Mr. Toad's Wild Ride",
+        "image": "images/mr-toad.jpg",
         "land": "Fantasyland",
         "type": "Dark Ride",
         "heightRequirement": "Any Height",
@@ -122,6 +137,7 @@
     {
         "id": 16,
         "name": "Star Tours",
+        "image": "images/star-tours.jpg",
         "land": "Tomorrowland",
         "type": "Simulator",
         "heightRequirement": "40 inches",
@@ -130,6 +146,7 @@
     {
         "id": 17,
         "name": "The Many Adventures of Winnie the Pooh",
+        "image": "images/winnie-pooh.jpg",
         "land": "Critter Country",
         "type": "Dark Ride",
         "heightRequirement": "Any Height",
@@ -138,6 +155,7 @@
     {
         "id": 18,
         "name": "Finding Nemo Submarine Voyage",
+        "image": "images/finding-nemo.jpg",
         "land": "Tomorrowland",
         "type": "Submarine Ride",
         "heightRequirement": "Any Height",

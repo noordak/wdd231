@@ -109,6 +109,16 @@ function displayRides(rideData) {
         article.classList.add("ride-card");
 
         article.innerHTML = `
+            ${ride.image ? `
+            <img
+                class="ride-card-image"
+                src="${ride.image}"
+                alt="${ride.name}"
+                loading="lazy"
+                width="600"
+                height="400">
+            ` : ""}
+
             <div class="ride-card-content">
 
                 <h3>${ride.name}</h3>
