@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Space Mountain",
-        "image": "images/space-mountain.jpg",
+        "image": "images/Space-Mountain.jpg",
         "land": "Tomorrowland",
         "type": "Thrill Ride",
         "heightRequirement": "40 inches",
@@ -29,7 +29,7 @@
     {
         "id": 4,
         "name": "Haunted Mansion",
-        "image": "images/haunted-mansion.jpg",
+        "image": "images/Haunted-Mansion.jpg",
         "land": "New Orleans Square",
         "type": "Dark Ride",
         "heightRequirement": "Any Height",
@@ -47,7 +47,7 @@
     {
         "id": 6,
         "name": "Indiana Jones Adventure",
-        "image": "images/Indiana-jones.jpg",
+        "image": "images/Indiana-Jones.jpg",
         "land": "Adventureland",
         "type": "Thrill Ride",
         "heightRequirement": "46 inches",
