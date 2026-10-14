@@ -128,7 +128,7 @@
     {
         "id": 15,
         "name": "Mr. Toad's Wild Ride",
-        "image": "images/mr-toad.JPG",
+        "image": "images/mr-toad.jpg",
         "land": "Fantasyland",
         "type": "Dark Ride",
         "heightRequirement": "Any Height",
@@ -155,7 +155,7 @@
     {
         "id": 18,
         "name": "Finding Nemo Submarine Voyage",
-        "image": "images/finding-nemo.JPG",
+        "image": "images/finding-nemo.jpg",
         "land": "Tomorrowland",
         "type": "Submarine Ride",
         "heightRequirement": "Any Height",
